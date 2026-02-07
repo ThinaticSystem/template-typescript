@@ -5,10 +5,18 @@
 	"type": "module",
 	"main": "src/index.ts",
 	"scripts": {
-		"dev": "node src/index.ts"
+		"dev": "node src/index.ts",
+		"format": "oxfmt",
+		"format:dry": "oxfmt --check",
+		"lint": "oxlint --type-aware",
+		"lint:fix": "oxlint --type-aware --fix",
+		"check": "pnpm format:dry && pnpm lint"
 	},
 	"devDependencies": {
-		"@types/node": "24 - 24.13"
+		"@types/node": "24 - 24.13",
+		"oxfmt": "^0.28.0",
+		"oxlint": "^1.42.0",
+		"oxlint-tsgolint": "^0.11.4"
 	},
 	"packageManager": "pnpm@10.28.2"
 }
