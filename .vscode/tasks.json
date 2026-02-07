@@ -28,7 +28,13 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check (format, lint)",
+			"label": "Typecheck",
+			"type": "npm",
+			"script": "typecheck",
+			"problemMatcher": []
+		},
+		{
+			"label": "Check (format, lint, typecheck)",
 			"type": "npm",
 			"script": "check",
 			"problemMatcher": []
