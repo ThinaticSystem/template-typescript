@@ -34,7 +34,14 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check (format, lint, typecheck)",
+			"label": "test",
+			"detail": "Start test runner in watch mode",
+			"type": "npm",
+			"script": "test",
+			"problemMatcher": []
+		},
+		{
+			"label": "Check (format, lint, typecheck, test)",
 			"type": "npm",
 			"script": "check",
 			"problemMatcher": []

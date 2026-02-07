@@ -11,14 +11,22 @@
 		"lint": "oxlint --type-aware",
 		"lint:fix": "oxlint --type-aware --fix",
 		"typecheck": "tsgo --build",
-		"check": "pnpm format:dry && pnpm lint && pnpm typecheck"
+		"test": "vitest watch",
+		"test:run": "vitest run",
+		"check": "pnpm format:dry && pnpm lint && pnpm typecheck && pnpm test:run"
 	},
 	"devDependencies": {
 		"@types/node": "24 - 24.13",
 		"@typescript/native-preview": "7.0.0-dev.20260207.1",
 		"oxfmt": "^0.28.0",
 		"oxlint": "^1.42.0",
-		"oxlint-tsgolint": "^0.11.4"
+		"oxlint-tsgolint": "^0.11.4",
+		"vitest": "^4.0.18"
 	},
-	"packageManager": "pnpm@10.28.2"
+	"packageManager": "pnpm@10.28.2",
+	"pnpm": {
+		"neverBuiltDependencies": [
+			"esbuild"
+		]
+	}
 }
