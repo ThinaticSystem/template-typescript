@@ -2,33 +2,36 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Format",
+			"label": "format",
+			"detail": "Format all files",
 			"type": "npm",
 			"script": "format",
 			"problemMatcher": []
 		},
 		{
-			"label": "Format (dry run)",
-			"detail": "Check formatting without fixing",
+			"label": "format:dry",
+			"detail": "Check formatting of all files",
 			"type": "npm",
 			"script": "format:dry",
 			"problemMatcher": []
 		},
 		{
-			"label": "Lint",
+			"label": "lint",
+			"detail": "Lint all files",
 			"type": "npm",
 			"script": "lint",
 			"problemMatcher": []
 		},
 		{
-			"label": "Lint with auto fix",
-			"detail": "Run linter with auto-fixing",
+			"label": "lint:fix",
+			"detail": "Lint and fix all files",
 			"type": "npm",
 			"script": "lint:fix",
 			"problemMatcher": []
 		},
 		{
-			"label": "Typecheck",
+			"label": "typecheck",
+			"detail": "Type check all files",
 			"type": "npm",
 			"script": "typecheck",
 			"problemMatcher": []
@@ -41,7 +44,8 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check (format, lint, typecheck, test)",
+			"label": "check",
+			"detail": "Run all checks: format, lint, typecheck, and tests without fixing",
 			"type": "npm",
 			"script": "check",
 			"problemMatcher": []
