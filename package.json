@@ -1,7 +1,6 @@
 {
 	"name": "todo",
 	"version": "0.1.0",
-	"author": "ThinaticSystem",
 	"type": "module",
 	"main": "src/index.ts",
 	"scripts": {
