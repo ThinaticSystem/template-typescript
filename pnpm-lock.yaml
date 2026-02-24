@@ -12,8 +12,8 @@ importers:
         specifier: 24 - 24.13
         version: 24.10.11
       '@typescript/native-preview':
-        specifier: 7.0.0-dev.20260216.1
-        version: 7.0.0-dev.20260216.1
+        specifier: 7.0.0-dev.20260224.1
+        version: 7.0.0-dev.20260224.1
       oxfmt:
         specifier: ^0.31.0
         version: 0.31.0
@@ -615,43 +615,43 @@ packages:
   '@types/node@24.10.11':
     resolution: {integrity: sha512-/Af7O8r1frCVgOz0I62jWUtMohJ0/ZQU/ZoketltOJPZpnb17yoNc9BSoVuV9qlaIXJiPNOpsfq4ByFajSArNQ==}
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-ZcxlhZ4Scm1LFKeGXo7V+B4H1Mb27/uVBO1o7d060jRIpGRuCOxsELo7jgUY8UhhTXtSpLECHsmAj8EyERSi9w==}
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-9VHXRhB7sM5DFqdlKaeDww8vuklgfzhYCjBazLCEnuFvb4J+rJ1DodLykc2bL+6kE8k6sdhYi3x8ipfbjtO44g==}
     cpu: [arm64]
     os: [darwin]
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-hY+hondi5/2m0rNSIgRkOfmA6FIx+KKnjPd9R6hHHumQu00XXoYA/xcIq3SyV1sXtowkhN+hR3ZUp1y3Orb84A==}
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-uCHipPRcIhHnvb7lAM29MQ1QT9pZ+uirqtH630aOMFm8VG3j8mkxVM9iGRLx829n38DMSDLjc3joCrQO3+sDcQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-L+3CgBVAjpYnWgulmTWOTp7IdbLjgOzLpppr2597i79KE5MV7UyC73UCdvK3GtAl1Huiss0HsWVBBEYRkLQsfw==}
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-yFEEq6hD2R70+lTogb211sPdCwz3H5hpYh0+YuKVMPsKo0oM8/jMvgjj2pyutmj/uCKLdbcJ9HP2vJ/13Szbcg==}
     cpu: [arm64]
     os: [linux]
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-Q+HBF1rlwpV1Nh2AESwte0lEHNPYVvbRLPQzTrorvx3gvXdRzfO9tHa6JL8Y1BO2KmSZBKmT7U+0188icTPBSg==}
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-cEWSRQ8b+CXdMJvoG18IjNTvBo+qT22B5imqm6nAssMpyHHQb62PvZGnrA8mPRQNPzLpa5F956j8GwAjyP8hBQ==}
     cpu: [arm]
     os: [linux]
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-qIaQFRL2s+fi3zbS0+fCgR1Nk7fXMnbLW7wsFpcwn3fpEYuMdiQY9pwE8SvJsw2M78xZlXL5L9l5CL8ti0cNZQ==}
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-zGz5kVcCeBRheQwA4jVTAxtbLsBsTkp9AEvWK5AlyCs1rQCUQobBhtx37X4VEmxn4ekIDMxYgaZdlZb7/PGp8w==}
     cpu: [x64]
     os: [linux]
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-Yu7OLyMng9A2GA0vlZ8WZuqAnI+WM55UaY1UwA03TJdcljk/AcEzb/99fEq5g0kPg3k2wwHiyMrCGxxu99+gXQ==}
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-A0f9ZDQqKvGk/an59HuAJuzoI/wMyrgTd69oX9gFCx7+5E/ajSdgv0Eg1Fco+nyLfT/UVM0CV3ERyWrKzx277w==}
     cpu: [arm64]
     os: [win32]
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-Lc+E1UNGKioOtKHUm1CLFO3W2PFWdLpJ6j2uB52RH0zhb63p4CEGCsuDH36QvgsXLibviExeNUF5Dum0rNKT9g==}
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-Se9JrcMdVLeDYMLn+CKEV3qy1yiildb5N23USGvnC9siNFalz8tVgd589dhRP+ywDhXnbIsZiFKDrZF/7B4wSQ==}
     cpu: [x64]
     os: [win32]
 
-  '@typescript/native-preview@7.0.0-dev.20260216.1':
-    resolution: {integrity: sha512-Vhffqcro1Q3w1zRgZ0E1C5JOB+8CtwKjSsszYfpGkt0qvRtOBO227AcnQe1sEiX+VLZW3Iw1VGVMhc8hNhpRZw==}
+  '@typescript/native-preview@7.0.0-dev.20260224.1':
+    resolution: {integrity: sha512-PU0zBXLvz6RKxbIubT66RCnJXgScdDIhfmNMkvRhOnX/C4SZom5TFSn7BEHC3w8JPj7OSz5OYoubtV1Haty2GA==}
     hasBin: true
 
   '@vitest/expect@4.0.18':
@@ -1187,36 +1187,36 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260216.1':
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20260224.1':
     optional: true
 
-  '@typescript/native-preview@7.0.0-dev.20260216.1':
+  '@typescript/native-preview@7.0.0-dev.20260224.1':
     optionalDependencies:
-      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-linux-arm': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-linux-x64': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260216.1
-      '@typescript/native-preview-win32-x64': 7.0.0-dev.20260216.1
+      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-linux-arm': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-linux-x64': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260224.1
+      '@typescript/native-preview-win32-x64': 7.0.0-dev.20260224.1
 
   '@vitest/expect@4.0.18':
     dependencies:
