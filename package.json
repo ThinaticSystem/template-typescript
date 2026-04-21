@@ -22,7 +22,7 @@
 		"oxlint-tsgolint": "^0.14.0",
 		"vitest": "^4.0.18"
 	},
-	"packageManager": "pnpm@10.30.2",
+	"packageManager": "pnpm@10.33.0",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"esbuild"
